@@ -1,0 +1,71 @@
+*{margin: 0%;}
+
+.img1{
+    width: 100%;
+}
+
+.sec{
+
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.titulo{
+
+  color: rgb(238, 147, 162);  
+  display: flex;
+  justify-content: center;
+}
+
+.sub{
+  
+    color: rgb(245, 140, 157);
+    display: flex;
+    justify-content: center;
+}
+
+.fun{
+display: flex;
+justify-content: center;
+}
+
+
+#divBusca{
+  background-color:#E0EEEE;
+  border:solid 2px #e76daa;
+  border-radius:10px;
+  width:300px;
+  height:32px;
+}
+
+#txtBusca{
+  float:center;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+#btnBusca{
+  border:none;
+  float:center;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:#e978be;
+}
+
+#divBusca img{
+  float:center;
+}
+
+.xuxa{
+  display:flex;
+  justify-content: right;
+  color: black;
+  background-image: -moz-repeating-linear-gradient(white, pink);
+}

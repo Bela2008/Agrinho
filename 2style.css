@@ -1,0 +1,91 @@
+*{margin: 0%;}
+
+.cab{
+
+    color: rgb(158, 83, 94);
+    background-color: white;
+    display: flex;
+    background-image:-moz-repeating-linear-gradient(rgb(255, 204, 211),white);
+    justify-content: space-between;
+
+}
+
+.img1{
+    width: 20%;
+}
+
+.img2{
+    width: 20%;
+}
+
+.im{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img3{
+    width: 20%;
+}
+
+.img4{
+    width: 20%;
+}
+
+.img5{
+    width: 20%;
+}
+
+.tex{
+    background-color: rgb(236, 146, 161);
+    display: flex;
+    justify-content: center;
+    color:rgb(158, 65, 81);
+}
+
+.img6{
+    width: 20%;
+}
+
+.isa{
+    justify-content: space-evenly;
+    display: flex;
+    color: rgb(158, 66, 81);
+    background-image: -moz-repeating-linear-gradient(pink, white);
+}
+
+.lau{
+    justify-content: space-evenly;
+    display: flex;
+    color: rgb(158, 68, 83);
+    background-image: -moz-repeating-linear-gradient(white, pink );
+}
+
+.img7{
+    width: 20%;
+}
+
+.nada{
+    justify-content: space-evenly;
+    display: flex;
+    color: rgb(158, 67, 82);
+    background-image: -moz-repeating-linear-gradient(pink,white);
+}
+
+.img8{
+width: 40%;
+}
+
+.ia{
+ display: flex;   
+ justify-content: left;
+}
+
+.botao{
+    justify-content: left;
+display: flex;
+height: 10%;
+width: 5%;
+color: rgb(206, 131, 144);
+background-color: white;
+}
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <title>Formas de Pagamento</title>
+    <link rel="stylesheet" href="pagamento.css">
+
+    
+</head>
+<body>
+    <header>
+
+<section>
+   <h1><em> <title class="pag" >Pagamento</title></em></h1>
+</section>
+
+<h4 for="nome">Nome</h4>
+
+<input class="ab" type="text" placeholder="nome">
+
+<h4 for="CPF">CPF</h4>
+
+<input class="cd" type="text" placeholder="CPF">
+
+<h4 for="email">Email</h4>
+
+<input class="ef" type="text" placeholder="e-mail">
+
+<h4 for="Endereço">Endereço</h4>
+
+<input class="gh" type="text" placeholder="endereço">
+
+<button onclick="nextBlock('produtoBlock',
+33.33)">Próximo</button>
+
+<div id="pagarBlock" class="block">
+    <h4>Pagar</h4>
+    <p>Revisar dados e finalizar pagamento</p>
+    <button onclick="submitPayment()">Pagar</button>
+    </div>
+
+</div>
+<script>
+function nextBlock(nextBlockId, progress) {
+const currentBlock = document.querySelector('.block.active');
+const inputs = currentBlock.querySelectorAll('input, select');
+let isValid = true;
+inputs.forEach(input => {
+if (!input.value) {
+isValid = false;
+input.style.borderColor = 'red';
+} else {
+input.style.borderColor = '';
+}
+});
+if (isValid) {
+currentBlock.classList.remove('active');
+
+document.getElementById(nextBlockId).classList.add('active');
+
+updateProgressBar(progress);
+}
+}
+function updateProgressBar(progress) {
+document.getElementById('progressBar').style.width = progress +
+'%';
+}
+function submitPayment() {
+updateProgressBar(100);
+
+alert('Pagamento realizado com sucesso!');
+}
+document.addEventListener('DOMContentLoaded', () => {
+const cartItemsContainer = document.getElementById('cart-items');
+const pagar = JSON.parse(localStorage.getItem('pagar')) || [];
+if (pagar.length === 0) {
+cartItemsContainer.innerText = 'O carrinho está vazio.';
+} else {
+pagar.forEach(produto => {
+const itemElemento = document.createElement('div');
+itemElemento.className = 'cart-item';
+itemElemento.innerText = `${produto.name} -
+
+$${produto.price}`;
+
+cartItemsContainer.appendChild(itemElemento);
+});
+}
+});
+</script>
+
+
+
+
+
+
+    </header>
+</body>
+</html>

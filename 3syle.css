@@ -1,0 +1,84 @@
+*{margin: 0%;}
+
+.cab{
+   color: rgb(202, 89, 142);
+
+    display: flex;
+    background-image: -moz-repeating-linear-gradient(rgb(252, 163, 178), rgb(238, 212, 226));
+    justify-content: space-between;
+ 
+ }
+
+ .img1{
+    width: 20%;
+ }
+
+ .img2{
+    width: 20%;
+ }
+
+ .im{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .img3{
+   width: 20%;
+ }
+
+ .img4{
+   width: 20%;
+ }
+
+ .img5{
+   width: 20%;
+ }
+
+ .tex{
+  justify-content: center;
+  display: flex;
+  background-color: rgb(255, 169, 184);
+ }
+
+ .intro{
+  justify-content: space-evenly;
+  display: flex;
+  color: black;
+  background-image: -moz-repeating-linear-gradient(pink,white);
+ }
+
+ .img6{
+  width: 15%;
+ }
+
+ .img7{
+  width: 25%;
+ }
+
+
+ .coco{
+  justify-content: space-evenly;
+  display: flex;
+  background-image: -moz-repeating-linear-gradient(pink,white);
+ }
+
+ 
+
+ .saint{
+  justify-content: space-evenly;
+  display: flex;
+  background-image: -moz-repeating-linear-gradient(white, pink);
+ }
+  
+ .img8{
+  width: 25%;
+ }
+
+ .botao{
+  justify-content: center;
+  display: flex;
+  height: 5%;
+  width: 5%;
+  color: rgb(192, 87, 105);
+  background-color: white;
+ }

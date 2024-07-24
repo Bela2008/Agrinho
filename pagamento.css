@@ -1,0 +1,39 @@
+*{margin: 0%;
+padding: 10px;}
+
+.pag{
+  justify-content: center;
+  display: flex;
+  color: rgb(235, 122, 122);
+  background-image: -moz-repeating-linear-gradient(pink, white);
+
+}
+ .dados{
+  justify-content: left;
+  display: flex;
+ }
+ .ab{
+  justify-content: left;
+  display: flex;
+  width: 40%;
+  height: 50%;
+}
+.cd{
+  justify-content: left;
+  display: flex;
+  width: 40%;
+  height: 50%;
+}
+.ef{
+  justify-content: left;
+  display: flex;
+  width: 40%;
+  height: 50%;
+  
+}
+.gh{
+  justify-content: left;
+  display: flex;
+  width: 40%;
+  height: 50%;
+}

@@ -1,0 +1,94 @@
+*{margin: 0%;}
+
+.cab{
+color: rgb(233, 124, 142);
+background-color: white;
+display: flex;
+background-image: -moz-repeating-linear-gradient(pink, white);
+justify-content: space-between;
+}
+
+.img1{
+    width: 20%;
+}
+
+.img2{
+    width: 20%;
+}
+
+.img3{
+    width: 15%;
+}
+
+.img4{
+    width: 20%;
+}
+
+.img5{
+    width: 15%;
+}
+
+.im{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tex{
+ justify-content: center;   
+ display: flex;
+ background-color:rgb(255, 174, 188);
+ color: white;
+}
+
+.ab{
+    display: flex;
+    justify-content: space-evenly;
+   background-image: -moz-repeating-linear-gradient(pink, white);
+    color: rgb(0, 0, 0);
+}
+
+.img6{
+    width: 20%;
+}
+
+.cd{
+    justify-content: space-evenly;
+    display: flex;
+    color: rgb(0, 0, 0);
+    background-image: -moz-repeating-linear-gradient(white, pink);
+}
+
+.img7{
+    width: 30%;
+}
+
+.ef{
+    justify-content: space-around;
+    display: flex;
+    color: rgb(0, 0, 0);
+    background-image: -moz-repeating-linear-gradient(pink, white);
+}
+
+.img8{
+    width: 20%;
+}
+
+.gh{
+    justify-content: space-evenly;
+    display: flex;
+    color: rgb(0, 0, 0);
+    background-image: -moz-repeating-linear-gradient(white,pink);
+}
+
+.img9{
+    width: 15%;
+}
+
+.botao{
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 135, 201);
+    background-color: rgb(255, 234, 234);
+    height: 5%;
+    width: 5%;
+}
